@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lavenderblush;
+}
+
+#vrh {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: solid #f00 5px;
+    padding: 20px;
+    margin: 0.5% 30%;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: lightgray;
+}
+
+#link_vrh img {
+    border: solid #000 2px;
+    border-radius: 50%;
+    width: 2rem;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
+
+#link_vrh a img:hover {
+    border: #aaa;
+}
+
+#link_vrh a img:visited {
+    border: #f00;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: solid 10px #f00;
+    outline: solid 10px #0f0;
+    outline-offset: 5px;
+    padding: 30px;
+    margin: 1.5% 35% 4%;
+    letter-spacing: 1rem;
+}
+
+:nth-child(2) {
+    word-spacing: 1rem;
+}
+
+ul {
+    list-style-image: url("ikonica.png");
+    background-color: #eee;
+    border: solid #000 2px;
+    border-radius: 20px;
+    width: 35%;
+    margin: 4% auto 0.5%;
+    padding: 0 40px;
+}
+
+li {
+    padding-top: 2em;
+    word-spacing: normal;
+}
+
+ul :nth-child(4) {
+    padding-bottom: 2em;
+}
+
+table {
+    margin: auto;
+    margin-top: 0.5%;
+    border: solid 2px #00f;
+    border-spacing: 0;
+    width: 70%;
+    margin-bottom: 0.5%;
+}
+
+td,
+th {
+    border: solid 1px #00f;
+    word-spacing: normal;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #ff0;
+}
+
+th {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f00;
+    color: #000;
+}
+
+td:nth-child(1) {
+    text-align: center;
+}
+
+tr:nth-child(1)>td:nth-child(2),
+tr:nth-child(1)>td:nth-child(4),
+tr:nth-child(1)>td:nth-child(2),
+tr:nth-child(1)>td:nth-child(6),
+tr:nth-child(3)>td:nth-child(2),
+tr:nth-child(3)>td:nth-child(4),
+tr:nth-child(3)>td:nth-child(2),
+tr:nth-child(3)>td:nth-child(6),
+tr:nth-child(5)>td:nth-child(2),
+tr:nth-child(5)>td:nth-child(4),
+tr:nth-child(5)>td:nth-child(2),
+tr:nth-child(5)>td:nth-child(6),
+tr:nth-child(7)>td:nth-child(2),
+tr:nth-child(7)>td:nth-child(4),
+tr:nth-child(7)>td:nth-child(2),
+tr:nth-child(7)>td:nth-child(6) {
+    background-color: #000;
+    color: #fff;
+}
+
+ul li ol {
+    list-style-image: none;
+    border: none;
+    word-spacing: normal;
+    list-style-type: lower-alpha;
+    padding-left: 50px;
+}
+
+:nth-child(9) {
+    list-style-image: none;
+    list-style-type: none;
+    padding: 20px;
+    border: dotted 5px #f00;
+    background-color: #eee;
+    margin-top: 5px;
+}
+
+:nth-child(9) li {
+    padding: 0;
+    word-spacing: normal;
+}
+
+p :nth-child(1) {
+    text-transform: uppercase;
+}
+
+p :nth-child(9) {
+    border: none;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+p:last-of-type {
+    font-size: 3em;
+    text-decoration: underline;
+    word-spacing: normal;
+    text-align: right;
+}
